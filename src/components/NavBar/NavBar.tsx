@@ -9,6 +9,7 @@ import project6Image from '../../assets/images/pokedex.png';
 import project7Video from '../../assets/video/vigilancia.mp4';
 import project8Image from '../../assets/images/presenca.png';
 import project9Image from '../../assets/images/bbb24.png';
+import project10Image from '../../assets/images/orkut.png';
 import { FaHtml5, FaCss3Alt, FaJsSquare, FaPython, FaGit, FaDocker, FaReact, FaCode, FaWhatsapp } from 'react-icons/fa';
 
 
@@ -330,6 +331,21 @@ const NavBar = () => {
                                     <a href="https://github.com/brunavillanova/BBB.git" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
                                     <br />
                                     <a href="paginadevotacaobbb24.netlify.app" target="_blank" rel="noopener noreferrer">Acessar Projeto / Access Project</a>
+                                </Typography>
+                            </Box>
+                        </Grid>
+                         <Grid item xs={12} sm={6} md={4}>
+                            <Box p={2} bgcolor="white" borderRadius="12px" boxShadow="0 4px 8px rgba(0, 0, 0, 0.3)">
+                                <ProjectImage src={project10Image} alt="Projeto10" />
+                                <Typography variant="h6" mt={2}>sistema de votação para o Big Brother Brasil</Typography>
+                                <Typography variant="body2">
+                              sistema de votação para o Big Brother Brasil
+
+                            Este projeto é um sistema de votação para o Big Brother Brasil (BBB 24), onde os usuários podem votar nos candidatos Beatriz ou Juliette. O sistema utiliza o reCAPTCHA do Google para prevenir votos automáticos e Prometheus para monitoramento de métricas.
+                                    <br />
+                                    <a href="https://github.com/brunavillanova/Orkut.Clone.git" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
+                                    <br />
+                                    <a href="https://orkutclone.netlify.app/" target="_blank" rel="noopener noreferrer">Acessar Projeto / Access Project</a>
                                 </Typography>
                             </Box>
                         </Grid>
