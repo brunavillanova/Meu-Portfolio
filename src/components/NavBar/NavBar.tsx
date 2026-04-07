@@ -10,6 +10,7 @@ import project7Video from '../../assets/video/vigilancia.mp4';
 import project8Image from '../../assets/images/presenca.png';
 import project9Image from '../../assets/images/bbb24.png';
 import project10Image from '../../assets/images/orkut.png';
+import project11Image from '../../assets/images/assistente.png';
 import { FaHtml5, FaCss3Alt, FaJsSquare, FaPython, FaGit, FaDocker, FaReact, FaCode, FaWhatsapp } from 'react-icons/fa';
 
 
@@ -344,6 +345,26 @@ const NavBar = () => {
                                     <a href="https://github.com/brunavillanova/Orkut.Clone.git" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
                                     <br />
                                     <a href="https://orkutclone.netlify.app/" target="_blank" rel="noopener noreferrer">Acessar Projeto / Access Project</a>
+                                </Typography>
+                            </Box>
+                        </Grid>
+
+                         <Grid item xs={12} sm={6} md={4}>
+                            <Box p={2} bgcolor="white" borderRadius="12px" boxShadow="0 4px 8px rgba(0, 0, 0, 0.3)">
+                                <ProjectImage src={project11Image} alt="Projeto11" />
+                                <Typography variant="h6" mt={2}>Assistente Virtual Onyx</Typography>
+                                <Typography variant="body2">
+                             O **Onyx** é um assistente virtual simples que utiliza a API de reconhecimento de voz do navegador para interpretar comandos do usuário e executar ações como:
+
+                                    * Responder saudações 👋
+                                    * Informar hora e data ⏰
+                                    * Abrir sites como Google, YouTube e Facebook 🌐
+                                    * Realizar pesquisas automaticamente 🔎
+                                    * Interagir por voz com o usuário 🎤
+                                    <br />
+                                    <a href="https://github.com/brunavillanova/assistente.git" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
+                                    <br />
+                                    <a href="https://chatonyxassistente.netlify.app/" target="_blank" rel="noopener noreferrer">Acessar Projeto / Access Project</a>
                                 </Typography>
                             </Box>
                         </Grid>
