@@ -329,7 +329,7 @@ const NavBar = () => {
                                     <br />
                                     <a href="https://github.com/brunavillanova/BBB.git" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
                                     <br />
-                                    <a href="https://brunavillanova-portfolio.netlify.app/" target="_blank" rel="noopener noreferrer">Acessar Projeto / Access Project</a>
+                                    <a href="paginadevotacaobbb24.netlify.app" target="_blank" rel="noopener noreferrer">Acessar Projeto / Access Project</a>
                                 </Typography>
                             </Box>
                         </Grid>
