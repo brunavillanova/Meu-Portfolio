@@ -339,9 +339,7 @@ const NavBar = () => {
                                 <ProjectImage src={project10Image} alt="Projeto10" />
                                 <Typography variant="h6" mt={2}>sistema de votação para o Big Brother Brasil</Typography>
                                 <Typography variant="body2">
-                              sistema de votação para o Big Brother Brasil
-
-                            Este projeto é um sistema de votação para o Big Brother Brasil (BBB 24), onde os usuários podem votar nos candidatos Beatriz ou Juliette. O sistema utiliza o reCAPTCHA do Google para prevenir votos automáticos e Prometheus para monitoramento de métricas.
+                             Este projeto é uma recriação do layout do Orkut, utilizando HTML e CSS, com foco no uso do Flexbox. Foi desenvolvido por Bruna Villanova para treinar habilidades em CSS Flexbox.
                                     <br />
                                     <a href="https://github.com/brunavillanova/Orkut.Clone.git" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
                                     <br />
