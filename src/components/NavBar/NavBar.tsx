@@ -337,7 +337,7 @@ const NavBar = () => {
                          <Grid item xs={12} sm={6} md={4}>
                             <Box p={2} bgcolor="white" borderRadius="12px" boxShadow="0 4px 8px rgba(0, 0, 0, 0.3)">
                                 <ProjectImage src={project10Image} alt="Projeto10" />
-                                <Typography variant="h6" mt={2}>sistema de votação para o Big Brother Brasil</Typography>
+                                <Typography variant="h6" mt={2}>layout do Orkut</Typography>
                                 <Typography variant="body2">
                              Este projeto é uma recriação do layout do Orkut, utilizando HTML e CSS, com foco no uso do Flexbox. Foi desenvolvido por Bruna Villanova para treinar habilidades em CSS Flexbox.
                                     <br />
