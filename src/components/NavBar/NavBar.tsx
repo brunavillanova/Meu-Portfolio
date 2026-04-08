@@ -2,7 +2,7 @@ import { SetStateAction, useState } from "react";
 import { AppBar, MenuItem, Toolbar, styled, Box, Typography, Container, Grid, Tabs, Tab } from "@mui/material";
 import project1Image from '../../assets/images/image.png';
 import project2Image from '../../assets/images/preview.png';
-import project3Image from '../../assets/images/arteimpressa.png';
+import project3Video from '../../assets/images/BARBEARIA.mp4';
 import project4Image from '../../assets/images/hamburgueria.png';
 import project5Image from '../../assets/images/software.jpg';
 import project6Image from '../../assets/images/pokedex.png';
@@ -10,9 +10,9 @@ import project7Video from '../../assets/video/vigilancia.mp4';
 import project9Image from '../../assets/images/bbb24.png';
 import project10Image from '../../assets/images/orkut.png';
 import project11Image from '../../assets/images/assistente.png';
-import { FaHtml5, FaCss3Alt, FaJsSquare, FaPython, FaGit, FaDocker, FaReact, FaCode, FaWhatsapp } from 'react-icons/fa';
-
-
+import { FaHtml5, FaCss3Alt, FaJsSquare, FaPython, FaGit, FaDocker, FaReact, FaWhatsapp } from "react-icons/fa";
+import { SiTypescript, SiNodedotjs, SiFigma } from "react-icons/si";
+import { FaExchangeAlt } from "react-icons/fa";
 
 
 const NavBar = () => {
@@ -130,27 +130,27 @@ const NavBar = () => {
                     {aboutTab === 0 && (
                         <Box mt={2}>
                             <Typography variant="body1">
-                                Sou Bruna Villanova, uma estudante de Engenharia de Software apaixonada por resolver problemas complexos e criar soluções inovadoras. Atualmente, estou cursando Engenharia de Software na Universidade Anhanguera, onde estou desenvolvendo habilidades avançadas em HTML, CSS, JavaScript e Python, e aprendendo sobre frameworks como React, Node.js, Flask e Pandas.
-                                <br />
-                                Durante meus estudos, trabalhei em diversos projetos desafiadores, incluindo um sistema de e-commerce e um player de música interativo. Essas experiências me permitiram aprimorar minhas habilidades em desenvolvimento frontend e backend, além de ganhar conhecimento prático em tecnologias emergentes.
-                                <br />
-                                Estou especialmente interessada em Desenvolvimento Frontend, e estou sempre buscando novas oportunidades para aprender e crescer profissionalmente. Meu objetivo é trabalhar em um ambiente inovador onde eu possa aplicar meus conhecimentos e contribuir para a criação de soluções eficazes e escaláveis.
-                                <br />
-                                Estou aberta a desafios empolgantes e oportunidades de crescimento profissional. Se você deseja saber mais sobre mim ou discutir oportunidades, sinta-se à vontade para entrar em contato!
-                            </Typography>
+                        Sou Bruna Villanova, formada em Engenharia de Software e apaixonada por resolver problemas complexos e criar soluções inovadoras. Ao longo da minha formação, desenvolvi habilidades em HTML, CSS, JavaScript e Python, além de trabalhar com frameworks como React, Node.js, Flask e Pandas.
+                        
+                        Durante minha trajetória, participei de diversos projetos práticos, incluindo um sistema de e-commerce e um player de música interativo. Essas experiências me permitiram fortalecer minhas habilidades em desenvolvimento frontend e backend, além de adquirir conhecimento prático em tecnologias modernas.
+                        
+                        Tenho grande interesse em Desenvolvimento Frontend e estou em busca da minha primeira oportunidade na área, onde possa aplicar meus conhecimentos, continuar aprendendo e contribuir com soluções eficientes e escaláveis.
+                        
+                        Estou aberta a novos desafios e oportunidades profissionais. Se quiser saber mais sobre meu trabalho ou conversar sobre oportunidades, fique à vontade para entrar em contato!
+                        </Typography>
                         </Box>
                     )}
                     {aboutTab === 1 && (
                         <Box mt={2}>
                             <Typography variant="body1">
-                                I am Bruna Villanova, a Software Engineering student passionate about solving complex problems and creating innovative solutions. Currently, I am pursuing a degree in Software Engineering at Anhanguera University, where I am developing advanced skills in HTML, CSS, JavaScript, and Python, and learning about frameworks such as React, Node.js, Flask, and Pandas.
-                                <br />
-                                Throughout my studies, I have worked on various challenging projects, including an e-commerce system and an interactive music player. These experiences have allowed me to enhance my frontend and backend development skills, as well as gain practical knowledge in emerging technologies.
-                                <br />
-                                I am particularly interested in Frontend Development and am always looking for new opportunities to learn and grow professionally. My goal is to work in an innovative environment where I can apply my knowledge and contribute to creating effective and scalable solutions.
-                                <br />
-                                I am open to exciting challenges and professional growth opportunities. If you would like to know more about me or discuss opportunities, feel free to get in touch!
-                            </Typography>
+                        I am Bruna Villanova, a Software Engineering graduate passionate about solving complex problems and building innovative solutions. Throughout my academic journey, I developed skills in HTML, CSS, JavaScript, and Python, as well as experience with frameworks such as React, Node.js, Flask, and Pandas.
+                      
+                        During this time, I worked on several practical projects, including an e-commerce system and an interactive music player. These experiences helped me strengthen both my frontend and backend development skills, while gaining hands-on experience with modern technologies.
+                        
+                        I am particularly interested in Frontend Development and currently seeking my first opportunity in the field, where I can apply my knowledge, continue learning, and contribute to building efficient and scalable solutions.
+                      
+                        I am open to new challenges and professional opportunities. Feel free to reach out if you would like to learn more about my work or discuss potential opportunities.
+                        </Typography>
                         </Box>
                     )}
                     <Box mt={2}>
@@ -193,10 +193,25 @@ const NavBar = () => {
                             <FaReact size={40} />
                             <Typography variant="body1">React</Typography>
                         </Box>
-                        <Box display="flex" flexDirection="column" alignItems="center">
-                            <FaCode size={40} />
-                            <Typography variant="body1">TypeScript</Typography>
-                        </Box>
+                    <Box display="flex" flexDirection="column" alignItems="center">
+                <SiTypescript size={40} />
+                <Typography variant="body1">TypeScript</Typography>
+                </Box>
+
+                <Box display="flex" flexDirection="column" alignItems="center">
+                <SiNodedotjs size={40} />
+                <Typography variant="body1">Node.js</Typography>
+                </Box>
+
+                <Box display="flex" flexDirection="column" alignItems="center">
+                <SiFigma size={40} />
+                <Typography variant="body1">Figma</Typography>
+                </Box>
+
+                <Box display="flex" flexDirection="column" alignItems="center">
+                <FaExchangeAlt size={40} />
+                <Typography variant="body1">APIs REST</Typography>
+                </Box>
                     </Box>
                     <Separator />
                 </Section>
@@ -239,17 +254,23 @@ const NavBar = () => {
                             </Box>
                         </Grid>
                         {/* Projeto 3 */}
-                        <Grid item xs={12} sm={6} md={4}>
+                       <Grid item xs={12} sm={6} md={4}>
                             <Box p={2} bgcolor="white" borderRadius="12px" boxShadow="0 4px 8px rgba(0, 0, 0, 0.3)">
-                                <ProjectImage src={project3Image} alt="Projeto 3" />
-                                <Typography variant="h6" mt={2}>e-commerce para camisetas personalizadas.</Typography>
+                                <video width="100%" controls>
+                                    <source src={project3Video} type="video/mp4" />
+                                    Seu navegador não suporta a tag de vídeo.
+                                </video>
+                                <Typography variant="h6" mt={2}> Barbearia - Website</Typography>
                                 <Typography variant="body2">
-                                Este projeto consiste em um sistema de e-commerce para camisetas personalizadas.
-                                 Ele inclui uma aplicação frontend desenvolvida com React e um backend em Node.js com Express que gerencia uploads de imagens e fornece APIs para o frontend.
+                               Este é um projeto de website para uma barbearia, desenvolvido com foco em apresentar serviços, melhorar a experiência do usuário e praticar habilidades de desenvolvimento front-end.
+                                O sistema simula um site institucional moderno, com seções organizadas para exibir informações como serviços, preços e contato
+                                    
                                     <br />
-                                    <a href="https://github.com/brunavillanova/estampasArteImpressa" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
+                                    <a href="https://github.com/brunavillanova/barbearia.git" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
                                     <br />
-                                    <a href="https://arteimpressajb.netlify.app" target="_blank" rel="noopener noreferrer">Acessar Projeto / Access Project</a>
+                                   <a href="https://barbeariacraazy.netlify.app" target="_blank" rel="noopener noreferrer"> Acessar Projeto</a>
+                                   
+                  
                                 </Typography>
                             </Box>
                         </Grid>
