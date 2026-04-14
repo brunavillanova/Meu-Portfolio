@@ -10,6 +10,7 @@ import project7Video from '../../assets/video/vigilancia.mp4';
 import project9Image from '../../assets/images/bbb24.png';
 import project10Image from '../../assets/images/orkut.png';
 import project11Image from '../../assets/images/assistente.png';
+import project12Image from '../../assets/images/sistemaInvetario.png';
 import { FaHtml5, FaCss3Alt, FaJsSquare, FaPython, FaGit, FaDocker, FaReact, FaWhatsapp } from "react-icons/fa";
 import { SiTypescript, SiNodedotjs, SiFigma } from "react-icons/si";
 import { FaExchangeAlt } from "react-icons/fa";
@@ -372,6 +373,21 @@ const NavBar = () => {
                                     <a href="https://github.com/brunavillanova/assistente.git" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
                                     <br />
                                     <a href="https://chatonyxassistente.netlify.app/" target="_blank" rel="noopener noreferrer">Acessar Projeto / Access Project</a>
+                                </Typography>
+                            </Box>
+                        </Grid>
+
+                        
+                         <Grid item xs={12} sm={6} md={4}>
+                            <Box p={2} bgcolor="white" borderRadius="12px" boxShadow="0 4px 8px rgba(0, 0, 0, 0.3)">
+                                <ProjectImage src={project12Image} alt="Projeto12" />
+                                <Typography variant="h6" mt={2}>Sistema de Inventário com QR Code</Typography>
+                                <Typography variant="body2">
+                                    Sistema completo para controle de estoque utilizando QR Code.
+                                    <br />
+                                    <a href="https://github.com/brunavillanova/qr-inventory-system.git" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
+                                    <br />
+                                    <a href="https://inventory-qrcode.netlify.app/" target="_blank" rel="noopener noreferrer">Acessar Projeto / Access Project</a>
                                 </Typography>
                             </Box>
                         </Grid>
