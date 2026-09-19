@@ -24,6 +24,8 @@ import project10Image from "../../assets/images/orkut.png";
 import project11Image from "../../assets/images/assistente.png";
 import project12Image from "../../assets/images/cidadeativa.png";
 import meuPortfolioImage from "../../assets/images/site.png";
+import smartGridImage from "../../assets/images/smartgrid.png";
+
 
 import {
   FaHtml5,
@@ -1587,6 +1589,62 @@ const NavBar = () => {
             </ProjectCard>
 
             </Grid>
+
+
+         {/* =================================================
+                PROJETO 12 - SMART GRID MONITOR
+            ================================================== */}
+
+<Grid item xs={12} sm={6} md={4}>
+  <ProjectCard>
+    <ProjectImage
+      src={smartGridImage}
+      alt="Smart Grid Monitor"
+    />
+
+    <ProjectTitle>
+      Smart Grid Monitor
+    </ProjectTitle>
+
+    <ProjectDescription>
+      Sistema web desenvolvido para monitoramento de
+      equipamentos de uma rede elétrica inteligente.
+
+      <br />
+      <br />
+
+      O dashboard permite acompanhar o status dos
+      equipamentos, visualizar níveis de alerta e falha,
+      além de monitorar informações como tensão,
+      corrente e temperatura.
+
+      <br />
+      <br />
+
+      O projeto possui integração entre frontend,
+      backend e banco de dados, com interface voltada
+      para acompanhamento e gestão dos equipamentos.
+    </ProjectDescription>
+
+    <ProjectLinks>
+      <a
+        href="https://github.com/brunavillanova/Monitor-de-Rede-Inteligente"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Ver no GitHub →
+      </a>
+
+      <a
+        href="https://smartgridbruna.netlify.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Acessar Projeto →
+      </a>
+    </ProjectLinks>
+  </ProjectCard>
+</Grid>
 
             </Grid>
 
