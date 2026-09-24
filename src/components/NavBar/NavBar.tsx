@@ -1494,11 +1494,11 @@ const NavBar = () => {
   <ProjectCard>
     <ProjectImage
       src={meuPortfolioImage}
-      alt="LinkMe"
+      alt="BVLink"
     />
 
     <ProjectTitle>
-      LinkMe
+      BVLink
     </ProjectTitle>
 
     <ProjectDescription>
