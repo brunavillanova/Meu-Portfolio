@@ -1525,7 +1525,7 @@ const NavBar = () => {
       </a>
 
       <a
-        href="https://crieseusitecomigobrunavillanovadev.netlify.app/"
+        href="https://crieseusitebrunadev.netlify.app/"
         target="_blank"
         rel="noopener noreferrer"
       >
