@@ -25,6 +25,7 @@ import project11Image from "../../assets/images/assistente.png";
 import project12Image from "../../assets/images/cidadeativa.png";
 import meuPortfolioImage from "../../assets/images/site.png";
 import smartGridImage from "../../assets/images/smartgrid.png";
+import presencaImage13 from "../../assets/images/presenca.png";
 
 
 import {
@@ -1645,6 +1646,72 @@ const NavBar = () => {
     </ProjectLinks>
   </ProjectCard>
 </Grid>
+
+{/* =================================================
+    PROJETO 13 - SISTEMA DE REGISTRO DE PRESENÇA
+================================================== */}
+
+<Grid item xs={12} sm={6} md={4}>
+
+  <ProjectCard>
+
+    <ProjectImage
+      src={presencaImage13}
+      alt="Sistema de Registro de Presença"
+    />
+
+    <ProjectTitle>
+      Sistema de Registro de Presença
+    </ProjectTitle>
+
+    <ProjectDescription>
+      Sistema web desenvolvido para facilitar o registro
+      de presença de colaboradores em ambientes
+      corporativos.
+
+      <br />
+      <br />
+
+      O sistema permite realizar o registro através da
+      matrícula do funcionário, exibindo informações
+      como nome, horário de registro e situação da
+      presença.
+
+      <br />
+      <br />
+
+      A aplicação também permite organizar e acompanhar
+      os registros de presença, oferecendo uma interface
+      simples e prática para utilização em tablets e
+      computadores.
+
+    </ProjectDescription>
+
+    <ProjectLinks>
+
+      <a
+        href="https://github.com/brunavillanova/sistema-presenca-backend"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Ver no GitHub →
+      </a>
+
+      <a
+        href="https://sistemadepresenca.netlify.app"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Acessar Projeto →
+      </a>
+
+    </ProjectLinks>
+
+  </ProjectCard>
+
+</Grid>
+
+
 
             </Grid>
 
